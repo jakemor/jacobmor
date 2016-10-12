@@ -31,6 +31,10 @@
 		padding: 8px 13px 8px 13px;
 	}
 
+	button {
+		font-family: 'AvenirNext-Regular' !important;
+	}
+
 	h2 {
 		font-size: 36px;
 	}
@@ -99,6 +103,18 @@
 	}
 
 	.p-blue {
+		color: #3778DE;
+	}
+
+	a {
+		color: #3778DE;
+	}
+
+	a:hover {
+		color: #3778DE;
+	}
+
+	a:visited {
 		color: #3778DE;
 	}
 
@@ -217,14 +233,3 @@
 	</div>
 </nav>
 
-<nav class="navbar navbar-top navbar-light">
-	<div class="container-fluid">
-		<div class="row d-nav-logo">
-			<div class="col-xs-12 nav-center-small col-xs-6">
-				<span class="s-nav-center-text height-24">
-					<p class="p-nav p-nav-center">Live near NYC? We'll send you an uber, so you can pick up your earrings in person!</p>
-				</span>
-			</div>
-		</div>
-	</div>
-</nav>

@@ -2,7 +2,7 @@
 	/* FOOTER */
 
 	footer {
-		background: url("/static/new-york-diamond-district.jpg");
+		background: url("/jacobmor/static/img/new-york-diamond-district.jpg");
 		background-size: cover;
 		background-position: top;
 	}
@@ -66,7 +66,7 @@
 			</div>
 			<div class="col-lg-6 col-md-8">
 				<h2>Diamonds You Can Trust</h2>
-				<img src="/static/hr.svg">
+				<img src="/jacobmor/static/img/hr.svg">
 				<p>JacobMor.com is proudly offered by Abe Mor. From high above Manhattan’s bustling Diamond District, we’ve served the jewelry market with trust, fairness and quality for more than 50 years. Now, we’re delighted to guide you through purchases you’ll feel great about while building a lasting relationship. Please contact us by phone at (212) 921-4220 or email at hello@abemor.com for any reason, any time.</p>
 			</div>
 		</div>
@@ -86,8 +86,5 @@
 	</div>
 </footer>
 
-<!-- SCRIPTS -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
 
 </html>

@@ -5,9 +5,13 @@
 <!-- BOOTSTRAP -->
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
 
+<!-- SCRIPTS -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+
 <!-- FAVICON -->
-<link href="./favicon2.png" rel="icon" type="image/x-icon" />
-<link href="./favicon2.png" rel="shortcut icon" type="image/x-icon" />
+<link href="./favicon.svg" rel="icon" type="image/x-icon" />
+<link href="./favicon.svg" rel="shortcut icon" type="image/x-icon" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -49,7 +53,7 @@
 		margin: 0;
 	}
 
-	.nav-center, .nav-center-small {
+	.nav-center, .nav-center-small, .nav-center-medium {
 		text-align: center;
 		padding: 0;
 		margin: 0;
@@ -73,14 +77,16 @@
 		letter-spacing: 0.75px;
 	}
 
+
 	.p-nav-bottom {
 		font-size: 20px;
 		font-family: 'AvenirNext-Medium';
 	}
 
 	.p-nav-center {
-		font-size: 14px;
+		font-size: 12px;
 		font-family: 'AvenirNext-Medium';
+		letter-spacing: 0.75px;
 	}
 
 	.p-nav-logo {
@@ -104,6 +110,12 @@
 
 	.d-nav-logo {
 		position: relative;
+	}
+
+	.v-center-align {
+	 	display: flex; 
+	    justify-content: center; 
+	    flex-direction: column; 
 	}
 
 	.s-nav-center-text {
@@ -132,7 +144,7 @@
 		background-color: #3778DE;
 		border-color: #3778DE;
 		font-family: 'AvenirNext-Medium';
-		
+
 	}
 
 
@@ -199,6 +211,18 @@
 				<span class="s-nav-center-text height-48 no-wrap">
 					<p class="p-nav p-nav-top hidden-sm-down">QUESTIONS?</p>
 					<p class="p-nav p-nav-bottom">(212) 921-4220</p>
+				</span>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<nav class="navbar navbar-top navbar-light">
+	<div class="container-fluid">
+		<div class="row d-nav-logo">
+			<div class="col-xs-12 nav-center-small col-xs-6">
+				<span class="s-nav-center-text height-24">
+					<p class="p-nav p-nav-center">Live near NYC? We'll send you an uber, so you can pick up your earrings in person!</p>
 				</span>
 			</div>
 		</div>

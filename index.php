@@ -132,31 +132,31 @@ p.lead {
 			<div class='item-hero item-princess-classic'></div>
 			<h2 class="item-content">Princess Classic</h2>
 			<p class="item-content lead">from $199 - $499</p>
-			<button type="button" class="btn btn-primary btn-lg">Shop Now</button>
+			<a role="button" href="/jacobmor/shop?id=princess-classic-diamond-stud-earrings" class="btn btn-primary btn-lg">Shop Now</a>
 		</div>
 		<div class="item item-feature">
 			<div class='item-hero item-round-classic'></div>
 			<h2 class="item-content">Round Classic</h2>
 			<p class="item-content lead">from $199 - $499</p>
-			<button type="button" class="btn btn-primary btn-lg">Shop Now</button>
+			<a role="button" href="/jacobmor/shop?id=round-classic-diamond-stud-earrings" class="btn btn-primary btn-lg">Shop Now</a>
 		</div>
 		<div class="item">
 			<div class='item-hero item-antique-classic'></div>
 			<h2 class="item-content">Antique Classic</h2>
 			<p class="item-content lead">from $199 - $499</p>
-			<button type="button" class="btn btn-primary btn-lg">Shop Now</button>
+			<a role="button" href="/jacobmor/shop?id=antique-classic-diamond-stud-earrings" class="btn btn-primary btn-lg">Shop Now</a>
 		</div>
 		<div class="item">
 			<div class='item-hero item-round-halo'></div>
 			<h2 class="item-content">Round Halo</h2>
 			<p class="item-content lead">from $199 - $499</p>
-			<button type="button" class="btn btn-primary btn-lg">Shop Now</button>
+			<a role="button" href="/jacobmor/shop?id=round-halo-diamond-stud-earrings" class="btn btn-primary btn-lg">Shop Now</a>
 		</div>
 		<div class="item">
 			<div class='item-hero item-princess-halo'></div>
 			<h2 class="item-content">Princess Halo</h2>
 			<p class="item-content lead">from $199 - $499</p>
-			<button type="button" class="btn btn-primary btn-lg">Shop Now</button>
+			<a role="button" href="/jacobmor/shop?id=princess-halo-diamond-stud-earrings" class="btn btn-primary btn-lg">Shop Now</a>
 		</div>
 	</div>	
 		

@@ -118,6 +118,10 @@
 		color: #3778DE;
 	}
 
+	a.btn:visited {
+		color: white;
+	}
+
 	.navbar {
 		background-color: white;
 		border-bottom: 1px solid;

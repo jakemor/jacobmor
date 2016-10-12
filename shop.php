@@ -53,10 +53,14 @@ echo "<title>" . $product['title'] . " Diamond Stud Earrings from Jacob Mor | Ne
 	width: 100%;
 	height: 315px;
 	display: inline-block;
-    /*background-image: url("/jacobmor/static/e1.jpg");*/
+    background-image: url("/jacobmor/static/e1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     /*background-position: 50% 0%;*/
+}
+
+.sticky-item {
+	position: fixed;
 }
 
 @media (max-width: 500px) {
@@ -65,12 +69,12 @@ echo "<title>" . $product['title'] . " Diamond Stud Earrings from Jacob Mor | Ne
 	}
 }
 
-.item-hero-front {
-    background-image: url("<?php echo $product["img_dir"] . 'crop/front.jpg'; ?>");
+.item-hero {
+    background-image: url("<?php echo $product["img_dir"] . 'crop/side.jpg'; ?>");
 }
 
-.item-hero-side {
-    background-image: url("<?php echo $product["img_dir"] . 'crop/side.jpg'; ?>");
+.item-hero:hover {
+    background-image: url("<?php echo $product["img_dir"] . 'crop/front.jpg'; ?>");
 }
 
 
@@ -123,9 +127,11 @@ hr {
 </style>
 
 <script type="text/javascript">
+
+	var width;
 	
 	$(document).ready(function() {
-
+		width = $('#item').width()
 	})
 
 
@@ -134,15 +140,37 @@ hr {
 
 	})
 
+	$(window).on('scroll', function() {
+
+		var y = $(document).scrollTop()
+		var navHeight = 65
+		var itemOffset = 100
+
+		if (y > navHeight) {
+			$('#item').addClass("sticky-item")
+			$('#item').width(width)
+			$('#item').css('top', itemOffset)
+		} else {
+			$('#item').removeClass("sticky-item")
+		}
+
+
+		if (y + $('#item').height() + (itemOffset - navHeight) > $('#body').height()) {
+			$('#item').removeClass("sticky-item")
+			// $('.col-left').css("padding-top", $('#body').height() + itemOffset - $('#item').height())
+		}
+
+	})
+
 </script>
 
 <!-- BODY -->
-<div class="container-fluid">
+<div id="body" class="container-fluid">
 	<div class="row row-top-padding">
 		<div class="col-md-1">
 		</div>
 		<div class="col-md-5 col-left">
-			<div class="item-hero item-hero-side">
+			<div id="item" class="item-hero">
 				
 			</div>
 		</div>
